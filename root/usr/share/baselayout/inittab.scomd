@@ -21,6 +21,7 @@ l4:4:wait:/sbin/scomd.py default
 l5:5:wait:/sbin/scomd.py default
 l6:6:wait:/sbin/scomd.py reboot
 #z6:6:respawn:/sbin/sulogin
+su:S016:once:/sbin/sulogin
 
 c1:2345:respawn:/sbin/mingetty --noclear tty1
 c2:2345:respawn:/sbin/mingetty --noclear tty2
@@ -34,5 +35,5 @@ c6:2345:respawn:/sbin/mingetty tty6
 #s1:12345:respawn:/sbin/agetty 9600 ttyS1 vt100
 
 # What to do at the "Three Finger Salute".
-ca:12345:ctrlaltdel:/sbin/shutdown -r now
+ca:12345:ctrlaltdel:/sbin/shutdown -t1 -a -r now
 
