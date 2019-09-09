@@ -1,0 +1,7 @@
+NAME=SulinOS
+ID=SulinOS
+PRETTY_NAME="SulinOS GNU/Linux"
+ANSI_COLOR="1;32"
+HOME_URL="https://www.gitlab.com/sulinos/"
+SUPPORT_URL="https://t.me/sulinos"
+BUG_REPORT_URL="https://www.gitlab.com/sulinos/"
