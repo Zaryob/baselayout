@@ -1,41 +1,43 @@
-k="\033[31;1m"
-s="\033[97;1m"
-b="\033[47;1m"
-n="\033[;0m"
-echo -e "$s"
-echo -e "                  &.*@                                       @/.& "
-echo -e "                 *.....@                                   @.....* "
-echo -e "                 (..@@@..%                               %..@@@..# "
-echo -e "                 *..@$k***$s@.@                             @.@$k***$s@..* "
-echo -e "                  *.@$k****$s(((.                         .((($k****$s@.. "
-echo -e "                  %.@$k******$s@.@                       @.@$k******$s@.% "
-echo -e "                  @.@$k*******$s@.@                     @.@$k*******$s@.@ "
-echo -e "                  @..@$k*******$s@.*  /@@@@@@@@@@@@@@  *.@$k********$s@.. "
-echo -e "                  ...@$k*******$s@.@@@@@@@@@@@@@@@@@@@@@%@$k*******$s@... "
-echo -e "                   @.@$k******$s%@@@@@@@@@@@@@@@@@@@@@@@@@@$k******$s@.@ "
-echo -e "                   (..@$k***$s/@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@$k***$s@..( "
-echo -e "                    *(..&@@@@@@.@@@@@@@@@@@@@@@@&.%@@@@.&@&..(* "
-echo -e "                       @@@  @%  &@ @@ @@@@  @@@@    @@/   @@ "
-echo -e "                       @%  #*    % @/ (@@*   @@       &    @ "
-echo -e "                       &               %     @%             @ "
-echo -e "                      @                                     @ "
-echo -e "                      @       @@                    @@      # "
-echo -e "          @ @@@       @       @@                    @@      ( "
-echo -e "         @@  %@@@     @                                     @ "
-echo -e "          @@@@@@@@&    (         @@& @@@@@@@@@ #@@(         @ "
-echo -e "           #@@@@@@@@   @     @#                      @     & "
-echo -e "            %@@@@@@@   @  @        &@          @@     @  *( "
-echo -e "                @@@@@    @@          @@      @@         @(( "
-echo -e "                  @  (#   @                             @ "
-echo -e "                    @  &(   @                         (& "
-echo -e "                     @* **@#@ @@                   %@ @ "
-echo -e "                       @** @       %@@@@@&&@@@@@*      # "
-echo -e "                           @                           @ "
-echo -e "                           (                          @ "
-echo -e "                            @                         @ "
-echo -e "                            @@        *    *         &(@ "
-echo -e "                           / /        %@@@@@/       **  # "
-echo -e "                           @@@@      @       &     @@@@/ "
-echo -e "                             @         #   *         @ "
-echo -e "                            @###########@ @###########@ "
-echo -e "                            @@@@@@@@@@@@@ @@@@@@@@@@@@@                         $n"
++--------------------------------------------------------------------------------+
+|ooooooooooooooooooooo+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooo|
+|ooooooooooooooooooo+:::++ooooooooooooooooooooooooooooooooooooooo++::~:oooooooooo|
+|ooooooooooooooooooo.+++:::ooooooooooooooooooooooooooooooooooooo:~++++.oooooooooo|
+|ooooooooooooooooooo.++::::~+ooooooooooooooooooooooooooooooooo+~::::++.oooooooooo|
+|ooooooooooooooooooo.+:.:~~:~:+ooooooooooooooooooooooooooooo+::~~~:.:+.oooooooooo|
+|ooooooooooooooooooo.+:.:::~.~~+ooooooooooooooooooooooooooo+~~.~::+.:+.oooooooooo|
+|ooooooooooooooooooo~+:.:::::~~~+ooooooooooooooooooooooooo+~~.:::::.:+~oooooooooo|
+|ooooooooooooooooooo::+.:+:+::~.~~ooooooooooooooooooooooo:~~~:::+::.+:~oooooooooo|
+|ooooooooooooooooooo+.+.~:::++:~.~:oooo++::~~.~~~:+++ooo:~.~+:+::::.+.+oooooooooo|
+|oooooooooooooooooooo.+~~++::::+.:.::.                ~:.~.::::+:+..+.ooooooooooo|
+|oooooooooooooooooooo::+.:::::+:.                          :++:::+.::~ooooooooooo|
+|oooooooooooooooooooo+~+.~:+::~.                            .:::+~.+~+ooooooooooo|
+|ooooooooooooooooooooo~:+~~::.                                ~:~.+:~oooooooooooo|
+|oooooooooooooooooooooo::::~      :.                 ::.   ~+. .::::ooooooooooooo|
+|ooooooooooooooooooooooo++~  :: .+++ .. .:    :+.   ++++:  :+++..++oooooooooooooo|
+|ooooooooooooooooooooooooo~.++:~++++~+: :+.  ~++:  .++++++~:++++.+ooooooooooooooo|
+|oooooooooooooooooooooooo+.++++++++++++:+++.:++++~ ++++++++++++++.ooooooooooooooo|
+|oooooooooooooooooooooooo~:++++++++++++++++++++++++++++++++++++++.+oooooooooooooo|
+|ooooooooooo+ooooooooooo+ +++++++. ++++++++++++++++++++++ .++++++~:oooooooooooooo|
+|ooooooooooo+~..~++oooooo.+++++++  ~++++++++++++++++++++:  :+++++~~oooooooooooooo|
+|oooooooooo~:++.   :ooooo.+++++++  :+++++++++++++++++++++  ++++++.:oooooooooooooo|
+|oooooooooo:        .+ooo~~+++++++:++:::::::::::::::~::++:+++++++.+oooooooooooooo|
+|ooooooooooo+.        +oo+.+++++::~:++++ooooooooooooo+++:::+++++:~ooooooooooooooo|
+|ooooooooooooo:        +oo:~++:~:+oooooo++oooooooo+:+oooo++~:+++.+ooooooooooooooo|
+|ooooooooooooooo:.      +oo~~:.+oooooooo~ ~oooooo:  oooooooo:.+.+oooooooooooooooo|
+|ooooooooooooooooo+.    :ooo: :oooooooooo: +oooo+ ~+oooooooo+ .+ooooooooooooooooo|
+|ooooooooooooooooooo+~~::~++o+~+oooooooooo+oooooooooooooooo+~~ooooooooooooooooooo|
+|ooooooooooooooooooooo+~:+:~:++~~++ooooooooooooooooooooo++~~+oooooooooooooooooooo|
+|ooooooooooooooooooooooo~~:+::~.::::::++++ooo+o+o+++++:::::~+oooooooooooooooooooo|
+|oooooooooooooooooooooooo+:::~.:++++++:::::~:::::::::++++++::oooooooooooooooooooo|
+|ooooooooooooooooooooooooooo++~:+++++++++++++++++++++++++++::oooooooooooooooooooo|
+|ooooooooooooooooooooooooooooo+~+++++++++++++++++++++++++++.+oooooooooooooooooooo|
+|oooooooooooooooooooooooooooooo:.+++++++++++++++++++++++++.~ooooooooooooooooooooo|
+|ooooooooooooooooooooooooooooo+~.:++++++++~:+++:~++++++++:.~:+ooooooooooooooooooo|
+|oooooooooooooooooooooooooooo+.:: ++++++++.~:::~.++++++++ ::.:ooooooooooooooooooo|
+|oooooooooooooooooooooooooooo+    ~++++++~~o+o++:~++++++~    +ooooooooooooooooooo|
+|ooooooooooooooooooooooooooooo++.~++++++++::+o+::++++++++~~++oooooooooooooooooooo|
+|oooooooooooooooooooooooooooooo:.::::::::::~.+.~::::::::::.+ooooooooooooooooooooo|
+|oooooooooooooooooooooooooooooo~             +             ~ooooooooooooooooooooo|
+|ooooooooooooooooooooooooooooooo+++o++++++++ooo++++++++++++oooooooooooooooooooooo|
++--------------------------------------------------------------------------------+
+############################# Well Come To SulinOS ###############################

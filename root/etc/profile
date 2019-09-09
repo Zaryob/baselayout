@@ -1,4 +1,4 @@
 # /etc/profile: login shell setup
 clear
-sh /etc/sulin-ascii
-echo "##################### Wellcome to SulinOS #####################"
+cat /etc/sulin-ascii
+. /etc/bash.bashrc
