@@ -6,7 +6,7 @@ k="\033[33;1m"
 n="\033[;0m"
 if [ $UID -eq 0 ]
 then
-export PS1="┌─[$s\u$n@$y\h$n]─[$m\W$n]\n└─[\#]>"
+export PS1="┌─[$s\u$n@$y\h$n]─[$m\W$n]\n└─[\#]─>"
 else
-export PS1="┌─[$k\u$n@$y\h$n]─[$m\W$n]\n└─[\#]>"
+export PS1="┌─[$k\u$n@$y\h$n]─[$m\W$n]\n└─[\#]─>"
 fi
