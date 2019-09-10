@@ -1,0 +1,7 @@
+NAME=Sulin
+ID=s19
+PRETTY_NAME="SulinOS"
+ANSI_COLOR="1;32"
+HOME_URL="https://sulinos.github.io"
+SUPPORT_URL="https://github.com/SulinOS/"
+BUG_REPORT_URL="https://github.com/SulinOS/SulinRepository/issues:/"
