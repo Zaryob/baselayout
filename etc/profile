@@ -1,9 +1,4 @@
 # /etc/profile: login shell setup
-<<<<<<< ali
-clear
-cat /etc/sulin-ascii
-. /etc/bash.bashrc
-=======
 #
 # That this file is used by any Bourne-shell derivative to setup the
 # environment for login shells.
@@ -57,9 +52,6 @@ else
 		PS1='${USER:-$(whoami 2>/dev/null)}@$(uname -n 2>/dev/null) \ $ '
 	fi
 fi
-<<<<<<< ali
->>>>>>> Gentoo baselayoutuna bakılarak bazı düzenlemeler yapıldı.
-=======
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
@@ -70,4 +62,3 @@ do
 . $bash_module
 done
 unset module
->>>>>>> evet modularite sağlayalım ama kullanmak kullanıcı özgürlüğünde.
