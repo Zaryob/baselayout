@@ -12,6 +12,11 @@
 #
 
 # <fs>			<mountpoint>	<type>		<opts>		<dump/pass>
+tmpfs       /            tmpfs   defaults       0 0
+
+none        /proc        proc    nosuid,noexec  0 0
+none        /dev/shm     tmpfs   defaults       0 0
+
 
 # NOTE: If your BOOT partition is ReiserFS, add the notail option to opts.
 #
