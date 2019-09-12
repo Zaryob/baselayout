@@ -41,15 +41,15 @@ KEEP_DIRS = \
 all:
 
 changelog:
-	git log ${CHANGELOG_LIMIT} --format=full > ChangeLog
+	git log ${CHANGELOG_LIMIT} --no-color --format=full > ChangeLog
 
 clean:
 
 install:
 	$(INSTALL_DIR) $(DESTDIR)/etc
-	cp -pPR etc/* etc.$(OS)/* $(DESTDIR)/etc/
+	cp -pPR etc/*  $(DESTDIR)/etc/
 	$(INSTALL_DIR) $(DESTDIR)/usr/share/baselayout
-	cp -pPR share.$(OS)/* $(DESTDIR)/usr/share/baselayout/
+	cp -pPR share/baselayout/* $(DESTDIR)/usr/share/baselayout/
 
 layout-dirs:
 	# Create base filesytem layout
@@ -78,13 +78,6 @@ layout: layout-dirs layout-$(OS)
 	touch $(DESTDIR)/tmp/.keep
 	# FHS compatibility symlinks stuff
 	ln -snf /var/tmp $(DESTDIR)/usr/tmp
-
-layout-usrmerge: layout
-ifeq ($(OS),Linux)
-	ln -snf usr/bin ${DESTDIR}/bin
-	ln -snf usr/sbin ${DESTDIR}/sbin
-	ln -snf bin ${DESTDIR}/usr/sbin
-endif
 
 live:
 	rm -rf /tmp/$(PKG)
