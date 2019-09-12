@@ -1,43 +1,27 @@
-commit 8f00963ec25bba04663aec28f2cc84a278739693
-Author: Suleyman Poyraz <zaryob.dev@gmail.com>
-Commit: Suleyman Poyraz <zaryob.dev@gmail.com>
+commit e2ed9e033e26fae05f2458bfa6c1ef5394bc37c8
+Author: ali <hebelehübele>
+Commit: ali <hebelehübele>
 
-    temiz oldu
+    Sülonun eklediklerini geri yamaladım
 
-commit 6ef102933d509d5427a85c9d5c45c419466da37d
-Author: Suleyman Poyraz <zaryob.dev@gmail.com>
-Commit: Suleyman Poyraz <zaryob.dev@gmail.com>
+commit 3bed4c8d6ee72de18683eaa7c64a9da6c25dfa0d
+Merge: 5577515 2425373
+Author: ali <hebelehübele>
+Commit: ali <hebelehübele>
 
-    Revert "evet modularite sağlayalım ama kullanmak kullanıcı özgürlüğünde."
-    
-    This reverts commit 3cb246caf5c4cb944494ad8bc07c66f264dae9e7.
+    Merge branch 'master' of https://github.com/sulincix/baselayout
 
-commit ceb478bbc72e7cdb11364011653821a6b029b6e0
-Author: Suleyman Poyraz <zaryob.dev@gmail.com>
-Commit: Suleyman Poyraz <zaryob.dev@gmail.com>
+commit 557751550bd5940224eb1af2bd59e0f651495792
+Author: ali <hebelehübele>
+Commit: ali <hebelehübele>
 
-    evet modularite sağlayalım ama kullanmak kullanıcı özgürlüğünde.
+    UPDATE PS1
 
-commit 1d9272242e0cd99bbccfd311c5953d6c436406d5
-Author: Suleyman Poyraz <zaryob.dev@gmail.com>
-Commit: Suleyman Poyraz <zaryob.dev@gmail.com>
-
-    Baselayout have been modifed with gentoo baselayout
-
-commit 2ee8edb57df5022c635f75503a3d80420b90298d
-Author: Suleyman Poyraz <zaryob.dev@gmail.com>
-Commit: Suleyman Poyraz <zaryob.dev@gmail.com>
-
-    Gentoo baselayoutuna bakılarak bazı düzenlemeler yapıldı.
-
-commit c2aff7ef787e85b54d4667a7872dc5bfc1795701
-Merge: 68cc609 69a1eb7
-Author: Suleyman Poyraz <22801690+Zaryob@users.noreply.github.com>
+commit 2425373b10b3671f47e5683117d11a2e25e3c583
+Author: Ali Rıza KESKİN <55052890+sulincix@users.noreply.github.com>
 Commit: GitHub <noreply@github.com>
 
-    Merge pull request #1 from sulincix/master
-    
-    baselayout gg
+    Update 999_PS1.bash
 
 commit 69a1eb72fec69237471226170339aaa36ba94af4
 Author: ali <hebelehübele>
