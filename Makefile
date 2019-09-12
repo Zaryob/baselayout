@@ -48,6 +48,8 @@ clean:
 install:
 	$(INSTALL_DIR) $(DESTDIR)/etc
 	cp -pPR etc/*  $(DESTDIR)/etc/
+	$(INSTALL_DIR) $(DESTDIR)/usr/share/baselayout
+	cp -pPR share/baselayout/* $(DESTDIR)/usr/share/baselayout/
 
 layout-dirs:
 	# Create base filesytem layout

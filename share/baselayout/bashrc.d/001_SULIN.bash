@@ -25,4 +25,3 @@ alias pscpu='ps auxf | sort -nr -k 3'
 alias pscpu10='ps auxf | sort -nr -k 3 | head -10'
 alias wget='wget -c'
 alias cp='cp -p'
-

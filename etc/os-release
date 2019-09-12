@@ -1,3 +1,4 @@
+<<<<<<< ali
 NAME=SulinOS
 ID=SulinOS
 PRETTY_NAME="SulinOS GNU/Linux"
@@ -5,3 +6,14 @@ ANSI_COLOR="1;32"
 HOME_URL="https://www.gitlab.com/sulinos/"
 SUPPORT_URL="https://t.me/sulinos"
 BUG_REPORT_URL="https://www.gitlab.com/sulinos/"
+=======
+NAME=Sulin
+ID=sulin
+ID_LIKE=s19
+PRETTY_NAME="SulinOS"
+VERSION_ID="2019"
+ANSI_COLOR="1;32"
+HOME_URL="https://sulinos.github.io"
+SUPPORT_URL="https://github.com/SulinOS/"
+BUG_REPORT_URL="https://github.com/SulinOS/SulinRepository/issues:/"
+>>>>>>> Gentoo baselayoutuna bakılarak bazı düzenlemeler yapıldı.
