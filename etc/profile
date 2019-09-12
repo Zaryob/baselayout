@@ -53,12 +53,3 @@ else
 	fi
 fi
 
-# If not running interactively, don't do anything
-[[ $- != *i* ]] && return
-
-# To creative idea by ali riza keskin modularity for bash :)
-for bash_module in $(ls /etc/bash.d/*.bash | sort)
-do
-. $bash_module
-done
-unset module

@@ -22,22 +22,6 @@ else
     eval `dircolors -b /etc/DIR_COLORS`
 fi
 
-alias d="ls --color"
-alias dir="ls --color"
-alias ls="ls --color=auto"
-alias ll="ls --color -l"
-alias la="ls --color -la"
-alias cls="clear"
-alias cd..="cd .."
-alias rm="rm -i"
-alias mv="mv -i"
-alias cp="cp -i"
-alias grep="grep --color"
-alias pgrep="pgrep -f"
-alias pkill="pkill -f"
-alias egrep="egrep --color"
-alias fgrep="fgrep --color"
-
 alias scp-resume="rsync --compress-level=3 --partial --progress --rsh=ssh"
 
 # Change the window title of X terminals
