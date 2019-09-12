@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 commit 6ef102933d509d5427a85c9d5c45c419466da37d
 Author: Suleyman Poyraz <zaryob.dev@gmail.com>
 Commit: Suleyman Poyraz <zaryob.dev@gmail.com>
@@ -33,32 +32,6 @@ Commit: GitHub <noreply@github.com>
     Merge pull request #1 from sulincix/master
     
     baselayout gg
-=======
-commit e2ed9e033e26fae05f2458bfa6c1ef5394bc37c8
-Author: ali <hebelehübele>
-Commit: ali <hebelehübele>
-
-    Sülonun eklediklerini geri yamaladım
-
-commit 3bed4c8d6ee72de18683eaa7c64a9da6c25dfa0d
-Merge: 5577515 2425373
-Author: ali <hebelehübele>
-Commit: ali <hebelehübele>
-
-    Merge branch 'master' of https://github.com/sulincix/baselayout
-
-commit 557751550bd5940224eb1af2bd59e0f651495792
-Author: ali <hebelehübele>
-Commit: ali <hebelehübele>
-
-    UPDATE PS1
-
-commit 2425373b10b3671f47e5683117d11a2e25e3c583
-Author: Ali Rıza KESKİN <55052890+sulincix@users.noreply.github.com>
-Commit: GitHub <noreply@github.com>
-
-    Update 999_PS1.bash
->>>>>>> github_mirror/master
 
 commit 69a1eb72fec69237471226170339aaa36ba94af4
 Author: ali <hebelehübele>
