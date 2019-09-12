@@ -48,8 +48,11 @@ clean:
 install:
 	$(INSTALL_DIR) $(DESTDIR)/etc
 	cp -pPR etc/*  $(DESTDIR)/etc/
+<<<<<<< HEAD
 	$(INSTALL_DIR) $(DESTDIR)/usr/share/baselayout
 	cp -pPR share/baselayout/* $(DESTDIR)/usr/share/baselayout/
+=======
+>>>>>>> github_mirror/master
 
 layout-dirs:
 	# Create base filesytem layout
