@@ -13,6 +13,8 @@ cdrom::11:
 mail::12:mail
 news::13:news
 uucp::14:uucp
+man::15:man
+cron::16:cron
 console::17:
 audio::18:
 lpadmin::19:lpadmin
@@ -22,7 +24,7 @@ sshd::22:sshd
 at::25:at
 tape::26:root
 video::27:root
-floppy:28:
+floppy::28:
 users::100:
 dbus:x:101:dbus
 hal:x:102:hal
